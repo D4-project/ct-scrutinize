@@ -10,7 +10,7 @@ The objective is to have a minimal framework to extract intelligence and informa
 
 - [ct](./bin/ct.py) - main module gathering the certstream and publishing the X.509 certificate in a Redis pub-sub channel
 - [cert-writer](./bin/cert-writer.py) - writer module to store X.509 certificate on the file-system
-- [ct-dns-resolver](ct-dns-resolver.py) - extract potential hostname from X.509 certificate and brute-force DNS resolution to gather specific DNS records
+- [ct-dns-resolver](./bin/ct-dns-resolver.py) - extract potential hostname from X.509 certificate and brute-force DNS resolution to gather specific DNS records
 
 ## Requirements
 
